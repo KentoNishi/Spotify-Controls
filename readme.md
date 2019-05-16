@@ -6,6 +6,6 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 
 # Installation
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip) the file.
-2. Unzip the folder.
-3. Load the unpackaged extension manually. 
+2. Unzip the file contents.
+3. Load the unpackaged extension manually. Make sure developer mode is enabled.
 4. Reload Spotify, and you are good to go!
