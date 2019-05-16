@@ -40,10 +40,7 @@
       },
       "player-save": {
          "description": "Toggle Favorite",
-         "global": true,
-         "suggested_key": {
-            "default": ""
-         }
+         "global": true
       },
       "player-shuffle": {
          "description": "Toggle Shuffle",
@@ -70,7 +67,7 @@
    },
    "manifest_version": 2,
    "name": "Spotify Controls",
-   "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ],
+   "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ], 
    "update_url": "http://www.example.com/update.xml",
    "version": "1.0.0"
 }
