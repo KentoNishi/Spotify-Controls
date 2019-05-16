@@ -40,7 +40,7 @@
       },
       "player-save": {
          "description": "Toggle Save",
-         "global": false
+         "global": true
       },
       "player-show": {
          "description": "Show Notification",
@@ -63,7 +63,7 @@
       "matches": [ "https://*.spotify.com/*" ]
    } ],
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-   "description": "This extension adds hotkeys, notifications and playback controls for Spotify Web App, now you can control music from anywhere",
+   "description": "An extension for Spotify shortcuts and controls, based on SpotifyControls by Sergej Popov.",
    "icons": {
       "128": "images/icon128.png",
       "16": "images/icon16.png",
@@ -72,6 +72,7 @@
    "manifest_version": 2,
    "name": "Spotify Controls",
    "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
+   "id":"gjdkgeaecjjfgidjgcmkoankdcaljogl",
+   "update_url": "http://www.example.com/update.xml",
    "version": "1.0.0"
 }

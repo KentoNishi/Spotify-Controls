@@ -704,7 +704,7 @@
                                     r._logger.debug("click: hotkeys"), chrome.tabs.create({
                                         url: a.Resources.urlChromeCommands
                                     }), e.preventDefault()
-                                }), document.querySelector("#contribute").addEventListener("click", function (e) {
+                                })/*, document.querySelector("#contribute").addEventListener("click", function (e) {
                                     r._logger.debug("click: contribute"), chrome.tabs.create({
                                         url: a.Resources.urlOss
                                     }), e.preventDefault()
@@ -722,7 +722,7 @@
                                 }), document.querySelector("#settings-notification-play").addEventListener("change", function (e) {
                                     var t = e.target.checked;
                                     r._logger.info("change: notifications play enabled: " + t), s.Storage.Set("notifications-play-disabled", !t), e.preventDefault()
-                                }), [4, s.Storage.Get("notifications-duration")];
+                                })*/, [4, s.Storage.Get("notifications-duration")];
                             case 1:
                                 return n = o.sent(), document.querySelector("#settings-notification-duration").value = (n || 3).toString(), document.querySelector("#settings-notification-duration").addEventListener("change", function (e) {
                                     var t = ~~e.target.value;
@@ -732,7 +732,7 @@
                     })
                 })
             }, e.prototype.printConsoleGreetings = function () {
-                this._logger.info(a.Resources.msgDontHack), this._logger.info(a.Resources.msgBuyBeer), this._logger.info(a.Resources.msgRate)
+                //this._logger.info(a.Resources.msgDontHack), this._logger.info(a.Resources.msgBuyBeer), this._logger.info(a.Resources.msgRate)
             }, e
         }();
     document.addEventListener("DOMContentLoaded", function () {

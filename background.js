@@ -432,11 +432,14 @@
                 return i(this, function (i) {
                     switch (i.label) {
                         case 0:
+                            void(0) 
+                            /*
                             return this._logger.info("Notifications enabled - displaying", n), [4, new Promise(function (e, r) {
                                 chrome.notifications.create(t + "-" + s.newGuid(), n, function (t) {
                                     e(t)
                                 })
                             })];
+                            */
                         case 1:
                             return r = i.sent(), [4, o.Storage.Get("notifications-duration")];
                         case 2:
@@ -831,7 +834,7 @@
                                         }, {
                                             title: "next"
                                         }]
-                                    }, [4, asynchrome_1.Notifications.create("progress", t)]);
+                                    }, void(0)); //[4, asynchrome_1.Notifications.create("progress", t)]);
                                 case 2:
                                     return n.sent(), [2]
                             }
@@ -857,7 +860,7 @@
                                 case 1:
                                     return n.sent() ? (this._logger.info("Notifications for track change disabled - skipping"), [3, 4]) : [3, 2];
                                 case 2:
-                                    return [4, asynchrome_1.Notifications.create("next", e)];
+                                    void(0) // return [4, asynchrome_1.Notifications.create("next", e)];
                                 case 3:
                                     n.sent(), n.label = 4;
                                 case 4:
@@ -890,7 +893,7 @@
                                 case 2:
                                     return n.sent() ? (this._logger.info("Notifications for play disabled - skipping"), [3, 5]) : [3, 3];
                                 case 3:
-                                    return [4, asynchrome_1.Notifications.create("playing", t)];
+                                void(0) //return [4, asynchrome_1.Notifications.create("playing", t)];
                                 case 4:
                                     n.sent(), n.label = 5;
                                 case 5:
@@ -923,7 +926,7 @@
                                 }, {
                                     title: "next"
                                 }]
-                            }, asynchrome_1.Notifications.create("saved", e), [2]
+                            }, void(0) //asynchrome_1.Notifications.create("saved", e), [2]
                         })
                     })
                 })
