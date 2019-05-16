@@ -1,7 +1,11 @@
 {
-   "author": [ "Kento Nishi" ],
+   "author": [
+      "Kento Nishi"
+   ],
    "background": {
-      "scripts": [ "background.js" ]
+      "scripts": [
+         "background.js"
+      ]
    },
    "browser_action": {
       "default_icon": "images/icon48.png",
@@ -54,10 +58,16 @@
          }
       }
    },
-   "content_scripts": [ {
-      "js": [ "agent.js" ],
-      "matches": [ "https://*.spotify.com/*" ]
-   } ],
+   "content_scripts": [
+      {
+         "js": [
+            "agent.js"
+         ],
+         "matches": [
+            "https://*.spotify.com/*"
+         ]
+      }
+   ],
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "description": "An extension for Spotify shortcuts and controls, based on SpotifyControls by Sergej Popov.",
    "icons": {
@@ -67,7 +77,15 @@
    },
    "manifest_version": 2,
    "name": "Spotify Controls",
-   "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ], 
+   "permissions": [
+      "activeTab",
+      "notifications",
+      "storage",
+      "https://*.spotify.com/",
+      "*://*.cloudfront.net/*",
+      "*://*.scdn.co/*",
+      "*://lyrics.wikia.com/*"
+   ],
    "update_url": "http://www.example.com/update.xml",
    "version": "1.0.0"
 }
