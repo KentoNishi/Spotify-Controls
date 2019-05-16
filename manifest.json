@@ -1,0 +1,78 @@
+{
+   "author": [ "Sergej Popov" ],
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon48.png",
+      "default_popup": "popup.html"
+   },
+   "commands": {
+      "player-backward": {
+         "description": "Rewind backward 10%",
+         "global": true
+      },
+      "player-forward": {
+         "description": "Rewind forward 10%",
+         "global": true
+      },
+      "player-mute": {
+         "description": "Mute",
+         "global": false
+      },
+      "player-next": {
+         "description": "Next Track",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaNextTrack"
+         }
+      },
+      "player-previous": {
+         "description": "Previous Track",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPrevTrack"
+         }
+      },
+      "player-repeat": {
+         "description": "Toggle Repeat",
+         "global": false
+      },
+      "player-save": {
+         "description": "Toggle Save",
+         "global": false
+      },
+      "player-show": {
+         "description": "Show Notification",
+         "global": true
+      },
+      "player-shuffle": {
+         "description": "Toggle Shuffle",
+         "global": false
+      },
+      "player-toggle": {
+         "description": "Play/Pause",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "agent.js" ],
+      "matches": [ "https://*.spotify.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "This extension adds hotkeys, notifications and playback controls for Spotify Web App, now you can control music from anywhere",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu42PSI64+hWiTXfulnWYrLtsbwS2CmO30VoR40jlY8sI+jZoHNYyCSJR1HzjBWtwSQLy5wnplSuf7Bq1dofCwVC0nxAO3mmHHPwK9pSY747akXgfqDEMabv4mlNNDj7eZD+J8DaXLx5ZybbSsYSfNmMQQ1BdE4x72otKBccdnx6xrtxfMbwSe6DePg6ODCJAOuYCkMkM+k4qvMTtn2GaNcTdP7PVl0EqzlV/w48WYm259NsL4M0c6cTO9GcHUOCF5pp2vjbSFdPZnD8XMGvmSIP7EhKzl0dR5dvnYZIVmAE1HyrUiOeV1J6YkqEwSJAmZYbUsdD/6hEET9/VFM3nKwIDAQAB",
+   "manifest_version": 2,
+   "name": "Spotify Hotkeys, Controls & Notifications",
+   "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.6"
+}
