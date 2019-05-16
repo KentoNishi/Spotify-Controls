@@ -42,7 +42,7 @@
          "description": "Toggle Favorite",
          "global": true,
          "suggested_key": {
-            "default": "Ctrl + Shift + Space"
+            "default": "Ctrl+Shift+Space"
          }
       },
       "player-shuffle": {
