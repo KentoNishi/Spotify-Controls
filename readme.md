@@ -6,6 +6,7 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 
 # Installation
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip) the file.
-2. Unzip the file contents.
-3. Load the unpackaged extension manually. Make sure developer mode is enabled.
-4. Reload Spotify, and you are good to go!
+2. Unzip the file contents. Navigate inside the unzipped folder.
+3. Go to ``chrome:extensions`` and enable developer mode.
+3. Drag and drop the folder into chrome.
+4. Open the extension. You are good to go!
