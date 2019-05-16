@@ -5,4 +5,5 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 ![Screeenshot](images/screenshot.png)
 
 # Installation
-[Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Spotify-Controls.crx) the extension, and load it manually. Reload Spotify, and you are good to go!
+1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Spotify-Controls.crx) the extension, and load it manually. 
+2. Reload Spotify, and you are good to go!
