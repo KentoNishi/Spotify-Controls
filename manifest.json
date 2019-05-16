@@ -39,7 +39,7 @@
          "global": false
       },
       "player-save": {
-         "description": "Toggle Save",
+         "description": "Toggle Favorite",
          "global": true
       },
       "player-show": {
