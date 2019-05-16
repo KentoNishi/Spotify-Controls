@@ -69,10 +69,9 @@
       "16": "images/icon16.png",
       "48": "images/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu42PSI64+hWiTXfulnWYrLtsbwS2CmO30VoR40jlY8sI+jZoHNYyCSJR1HzjBWtwSQLy5wnplSuf7Bq1dofCwVC0nxAO3mmHHPwK9pSY747akXgfqDEMabv4mlNNDj7eZD+J8DaXLx5ZybbSsYSfNmMQQ1BdE4x72otKBccdnx6xrtxfMbwSe6DePg6ODCJAOuYCkMkM+k4qvMTtn2GaNcTdP7PVl0EqzlV/w48WYm259NsL4M0c6cTO9GcHUOCF5pp2vjbSFdPZnD8XMGvmSIP7EhKzl0dR5dvnYZIVmAE1HyrUiOeV1J6YkqEwSJAmZYbUsdD/6hEET9/VFM3nKwIDAQAB",
    "manifest_version": 2,
-   "name": "Spotify Hotkeys, Controls & Notifications",
+   "name": "Spotify Controls",
    "permissions": [ "activeTab", "notifications", "storage", "https://*.spotify.com/", "*://*.cloudfront.net/*", "*://*.scdn.co/*", "*://lyrics.wikia.com/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "2.0.6"
+   "version": "1.0.0"
 }
