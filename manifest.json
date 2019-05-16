@@ -1,5 +1,5 @@
 {
-   "author": [ "Sergej Popov" ],
+   "author": [ "Kento Nishi" ],
    "background": {
       "scripts": [ "background.js" ]
    },
