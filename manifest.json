@@ -40,11 +40,10 @@
       },
       "player-save": {
          "description": "Toggle Favorite",
-         "global": true
-      },
-      "player-show": {
-         "description": "Show Notification",
-         "global": true
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl + Shift + Space"
+         }
       },
       "player-shuffle": {
          "description": "Toggle Shuffle",
