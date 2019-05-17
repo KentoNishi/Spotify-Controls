@@ -5,11 +5,9 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 ![Screeenshot](images/screenshot.png)
 
 # About
-
 This extension lets you customize and control keyboard shortcuts for Spotify!
 
 # Installation
-
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip) the file.
 2. Unzip the file contents. 
     > When the unzip finishes, make sure you are inside the extracted folder. For example, if you downloaded the file to `Downloads`, make sure you are inside `Downloads/Spotify-Controls-master`.
@@ -19,13 +17,11 @@ This extension lets you customize and control keyboard shortcuts for Spotify!
     > To activate the extension, click on the Spotify icon on the navigation bar.
 
 # Shortcuts
-
 By opening the extension and clicking ``Change shortcuts``, you can set your own custom commands.
 
 ![Screeenshot](images/shortcuts.png)
 
 # Issues
-
 * While loading, the player occasionally shows the title as being ``undefined``.
     > Wait for the Spotify app to load.
 * If you are using a browser that supports hardware media keys, some keys may not register.
