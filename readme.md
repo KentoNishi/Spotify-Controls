@@ -5,7 +5,7 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 ![Screeenshot](images/screenshot.png)
 
 # About
-This extension lets you customize keyboard shortcuts for Spotify! In addition, a built in popup lets you control music from other tabs.
+This extension lets you customize and control keyboard shortcuts for Spotify!
 
 # Installation
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip) the file.
