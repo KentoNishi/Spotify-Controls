@@ -4,9 +4,20 @@ An extension for Spotify shortcuts and controls, based on [SpotifyControls](http
 
 ![Screeenshot](images/screenshot.png)
 
+# About
+This extension lets you customize keyboard shortcuts for Spotify! In addition, a built in popup lets you control music from other tabs.
+
 # Installation
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip) the file.
 2. Unzip the file contents. Navigate inside the unzipped folder.
 3. Go to ``chrome:extensions`` and enable developer mode.
-3. Drag and drop the folder into chrome.
-4. Open the extension. You are good to go!
+4. Drag and drop the folder into chrome.
+5. Open the extension. You are good to go!
+
+# Shortcuts
+By opening the extension and clicking ``Change shortcuts``, you can set your own custom commands.
+
+![Screeenshot](images/shortcuts.png)
+
+# Issues
+* While loading, the player occasionally shows the title as being ``undefined``.
