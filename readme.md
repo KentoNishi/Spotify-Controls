@@ -23,3 +23,8 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 
 # Issues
 * While loading, the player occasionally shows the title as being ``undefined``.
+* If you are using a browser that supports hardware media keys, make sure to disable the feature or disable playback shortcuts in the extension.
+    * In Microsoft Edge on Chromium, the feature can be turned off at ``edge://flags/#hardware-media-key-handling``.
+        > Keypresses may not be registered if 2 handlers conflict. Disable either the browser feature or ``Play/Pause``, ``Next Track``, and ``Previous Track`` shortcuts to fix the issue.
+        >   * All other shortcuts are unaffected by this conflict.
+    * Other Chromium browsers can solve the issue with similar procedures.
