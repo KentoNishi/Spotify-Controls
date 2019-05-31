@@ -18,3 +18,4 @@ Media_Prev::
 		return
 	Send {Media_Prev}
 	return
+; chrome.exe --load-extension="C:\Users\kento\Documents\GitHub\Spotify-Controls"
