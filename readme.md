@@ -21,6 +21,10 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 
 ![Screeenshot](images/shortcuts.png)
 
+# Optional Features
+> These features only work in Windows.
+
+
 # Issues
 * While loading, the player occasionally shows the title as being ``undefined``.
     > Wait for the Spotify app to load.
