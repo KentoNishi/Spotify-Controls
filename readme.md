@@ -22,7 +22,7 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 ![Screeenshot](images/shortcuts.png)
 
 # Optional Features
-> These features only work in Windows.
+> These features only work on Windows.
 ### Headphone Hotkeys
 [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Hotkeys_Installer.EXE)
 * Control audio with the media buttons on your headphones.
