@@ -4,19 +4,19 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Media_Play_Pause::
-	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 25)
+	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 500)
 		return
 	Send {Media_Play_Pause}
 	return
 
 Media_Next::
-	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 25)
+	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 500)
 		return
 	Send {Media_Next}
 	return
 
 Media_Prev::
-	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 25)
+	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 500)
 		return
 	Send {Media_Prev}
 	return
