@@ -26,7 +26,7 @@ These features only work on Windows.
 ## Headphone Hotkeys
 Control audio with the media buttons on your headphones.
 ### Installation
-1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Headphone-Controls) the Headphone-Controls executable.
+1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Headphone-Controls.exe) the Headphone-Controls executable.
 2. Move the downloaded executable to your startup folder (``shell:startup``).
 3. Open the executable. Your headphones can now control media playback.
     > The application will now automatically launch in the background on startup.
