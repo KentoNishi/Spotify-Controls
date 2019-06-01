@@ -23,7 +23,9 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 
 # Optional Features
 > These features only work in Windows.
-
+### Headphone Hotkeys
+[Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Hotkeys_Installer.EXE)
+* Control audio with the media buttons on your headphones.
 
 # Issues
 * While loading, the player occasionally shows the title as being ``undefined``.
