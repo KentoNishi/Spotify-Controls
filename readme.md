@@ -24,8 +24,11 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 # Optional Features
 > These features only work on Windows.
 ### Headphone Hotkeys
-[Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Hotkeys_Installer.EXE)
 * Control audio with the media buttons on your headphones.
+    1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Headphone-Controls) the Headphone-Controls executable.
+    2. Move the downloaded executable to your startup folder (``shell:startup``).
+    3. Open the executable. Your headphones can now control media playback.
+    > The application will now automatically launch in the background on startup.
 
 # Issues
 * While loading, the player occasionally shows the title as being ``undefined``.
