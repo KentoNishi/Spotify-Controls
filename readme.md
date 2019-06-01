@@ -26,6 +26,7 @@ These features only work on Windows.
 ## Headphone Hotkeys
 Control audio with the media buttons on your headphones.
 ### Installation
+> Make sure your keyboard shortcuts for ``Play/Pause``, ``Next Track``, and ``Previous Track`` are set to their default keys.
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Headphone-Controls.exe) the Headphone-Controls executable.
 2. Move the downloaded executable to your startup folder (``shell:startup``).
 3. Open the executable. Your headphones can now control media playback.
@@ -41,6 +42,8 @@ Control audio with the media buttons on your headphones.
     * Other Chromium browsers can solve the issue with similar procedures.
 * Shortcuts may not work after changing them.
     > Restart the browser, and open Spotify again.
+* Headphone Controls may prevent shortcuts from being pressed quickly.
+    > Press the key again, after a short pause of more than 600 milliseconds.
     
 # Credits
 * This project is based on [SpotifyControls](https://github.com/Sergej-Popov/SpotifyControls) by [@Sergej-Popov](https://github.com/Sergej-Popov).
