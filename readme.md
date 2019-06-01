@@ -1,6 +1,6 @@
 # Spotify Controls
 ### [Download](https://github.com/KentoNishi/Spotify-Controls/archive/master.zip)
-An extension for Spotify shortcuts and controls, based on [SpotifyControls](https://github.com/Sergej-Popov/SpotifyControls) by [@Sergej-Popov](https://github.com/Sergej-Popov).
+An extension for Spotify shortcuts and controls.
 
 ![Screeenshot](images/screenshot.png)
 
@@ -37,3 +37,6 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
     * Other Chromium browsers can solve the issue with similar procedures.
 * Shortcuts may not work after changing them.
     > Restart the browser, and open Spotify again.
+    
+# Credits
+* This project is based on [SpotifyControls](https://github.com/Sergej-Popov/SpotifyControls) by [@Sergej-Popov](https://github.com/Sergej-Popov).
