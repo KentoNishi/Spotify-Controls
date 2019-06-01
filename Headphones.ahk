@@ -10,13 +10,13 @@ Media_Play_Pause::
 	return
 
 Media_Next::
-	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 500)
+	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 600)
 		return
 	Send {Media_Next}
 	return
 
 Media_Prev::
-	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 500)
+	if (A_ThisHotkey = A_PriorHotkey && A_TimeSincePriorHotkey < 600)
 		return
 	Send {Media_Prev}
 	return
