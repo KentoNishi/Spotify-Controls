@@ -40,10 +40,12 @@ Control audio with the media buttons on your headphones.
         > Keypresses may not be registered if 2 handlers conflict. Disable either the browser feature or ``Play/Pause``, ``Next Track``, and ``Previous Track`` shortcuts to fix the issue.
         >   * All other shortcuts are unaffected by this conflict.
     * Other Chromium browsers can solve the issue with similar procedures.
+* Keys may suddenly stop working.
+    > Restart the browser, reload the extension, and restart optional features.
 * Shortcuts may not work after changing them.
     > Restart the browser, and open Spotify again.
 * Headphone Controls may prevent shortcuts from being pressed quickly.
-    > Press the key again, after a short pause of more than 600 milliseconds.
+    > Press the key again, after a short pause of more than 600 milliseconds.    
     
 # Credits
 * This project is based on [SpotifyControls](https://github.com/Sergej-Popov/SpotifyControls) by [@Sergej-Popov](https://github.com/Sergej-Popov).
