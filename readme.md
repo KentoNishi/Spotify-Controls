@@ -29,7 +29,8 @@ Control audio with the media buttons on your headphones.
 > Make sure your keyboard shortcuts for ``Play/Pause``, ``Next Track``, and ``Previous Track`` are set to their default keys.
 1. [Download](https://github.com/KentoNishi/Spotify-Controls/raw/master/Headphone-Controls.exe) the Headphone-Controls executable.
 2. Move the downloaded executable to your startup folder (``shell:startup``).
-3. Open the executable. Your headphones can now control media playback.
+3. Right click the executable. Click on the compatibility tab, and check ``Run this program as an administrator``. Apply the settings.
+4. Open the executable. Your headphones can now control media playback.
     > The application will automatically launch in the background on startup.
 
 # Issues
