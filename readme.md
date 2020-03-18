@@ -21,6 +21,15 @@ By opening the extension and clicking ``Change shortcuts``, you can set your own
 
 ![Screeenshot](images/shortcuts.png)
 
+# Desktop Integration
+You can use this extension alongside the Spotify desktop application.
+1. Make sure the extension is installed in your browser.
+1. Open the desktop application.
+1. Open the web application.
+1. Minimize or hide the web application, but make sure it stays open.
+1. In the web app, make sure your audio output device is set to the desktop application.
+![output device](./images/outputDevice.png)
+
 # Optional Features
 These features only work on Windows.
 ## Headphone Hotkeys

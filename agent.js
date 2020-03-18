@@ -26,9 +26,9 @@
         if (4 & e && "object" == typeof t && t && t.__esModule) return t;
         var o = Object.create(null);
         if (r.r(o), Object.defineProperty(o, "default", {
-                enumerable: !0,
-                value: t
-            }), 2 & e && "string" != typeof t)
+            enumerable: !0,
+            value: t
+        }), 2 & e && "string" != typeof t)
             for (var n in t) r.d(o, n, function (e) {
                 return t[e]
             }.bind(null, n));
@@ -122,7 +122,7 @@
                 }), chrome.runtime.sendMessage({
                     type: t,
                     message: e
-                }, function (t) {})
+                }, function (t) { })
             }, t
         }();
         e.Bus = o
@@ -173,9 +173,9 @@
                 }, t.prototype.Previous = function () {
                     this._player.querySelector(".spoticon-skip-back-16").click()
                 }, t.prototype.Repeat = function () {
-                    (this._player.querySelector(".spoticon-repeat-16") || this._player.querySelector(".spoticon-repeatonce-16")).click()
+                    (this._player.querySelector("[data-testid=control-button-repeat]") || this._player.querySelector(".spoticon-repeatonce-16")).click()
                 }, t.prototype.Shuffle = function () {
-                    this._player.querySelector(".spoticon-shuffle-16").click()
+                    this._player.querySelector("[data-testid=control-button-shuffle]").click()
                 }, t.prototype.Mute = function () {
                     this._player.querySelector(".volume-bar button").click()
                 }, t.prototype.Save = function () {
@@ -206,28 +206,42 @@
                     this._logger.info(e), this._logger.info("rewinding to target" + t), this._clickAt(e, e.offsetWidth * t)
                 }, t.prototype.GetArtist = function () {
                     try {
-                        return this._player.querySelector(".track-info__artists a").text
+                        var t = this._player.querySelector("[href*=artist]").text;
+                        if (t === undefined) {
+                            return "Unknown Artist";
+                        }
+                        return t
                     } catch (t) {
                         return
                     }
                 }, t.prototype.GetTitle = function () {
                     try {
-                        return this._player.querySelector(".track-info__name a").text
+                        var t = this._player.querySelector("[data-testid=nowplaying-track-link]").text;
+                        if (t === undefined) {
+                            return "Unknown Title"
+                        }
+                        return t;
                     } catch (t) {
                         return
                     }
                 }, t.prototype.GetArt = function () {
                     try {
+                        var url = this._player.querySelector("[data-testid=nowplaying-track-link]").href;
+                        if (this._song == url) {
+                            return this._bg;
+                        }
+                        this._song = url;
                         var t = this._player.querySelector(".cover-art-image").style.backgroundImage;
-                        return t.slice(5, t.length - 2)
+                        this._bg = t.slice(5, t.length - 2);
+                        return this._bg;
                     } catch (t) {
                         return
                     }
                 }, t.prototype.GetProgress = function () {
                     try {
                         var t = this.GetElapsed().split(":").map(function (t) {
-                                return ~~t
-                            }),
+                            return ~~t
+                        }),
                             e = 60 * t[0] + t[1],
                             r = this.GetLength().split(":").map(function (t) {
                                 return ~~t
@@ -259,13 +273,13 @@
                     }
                 }, t.prototype.GetShuffleState = function () {
                     try {
-                        return this._player.querySelector(".spoticon-shuffle-16").classList.contains("control-button--active")
+                        return this._player.querySelector("[data-testid=control-button-shuffle]").classList.contains("control-button--active")
                     } catch (t) {
                         return
                     }
                 }, t.prototype.GetRepeatState = function () {
                     try {
-                        var t = this._player.querySelector(".spoticon-repeat-16");
+                        var t = this._player.querySelector("[data-testid=control-button-repeat]");
                         return t || (t = this._player.querySelector(".spoticon-repeatonce-16")), t.classList.contains("control-button--active")
                     } catch (t) {
                         return
