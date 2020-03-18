@@ -26,9 +26,9 @@
         if (4 & t && "object" == typeof e && e && e.__esModule) return e;
         var r = Object.create(null);
         if (n.r(r), Object.defineProperty(r, "default", {
-                enumerable: !0,
-                value: e
-            }), 2 & t && "string" != typeof e)
+            enumerable: !0,
+            value: e
+        }), 2 & t && "string" != typeof e)
             for (var o in e) n.d(r, o, function (t) {
                 return e[t]
             }.bind(null, o));
@@ -120,38 +120,38 @@
             }), chrome.runtime.sendMessage({
                 type: e,
                 message: t
-            }, function (e) {})
+            }, function (e) { })
         }, e
     }();
     t.Bus = r
 }, function (e, t, n) {
     "use strict";
     var r = this && this.__awaiter || function (e, t, n, r) {
-            return new(n || (n = Promise))(function (o, i) {
-                function c(e) {
-                    try {
-                        a(r.next(e))
-                    } catch (e) {
-                        i(e)
-                    }
+        return new (n || (n = Promise))(function (o, i) {
+            function c(e) {
+                try {
+                    a(r.next(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function u(e) {
-                    try {
-                        a(r.throw(e))
-                    } catch (e) {
-                        i(e)
-                    }
+            function u(e) {
+                try {
+                    a(r.throw(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function a(e) {
-                    e.done ? o(e.value) : new n(function (t) {
-                        t(e.value)
-                    }).then(c, u)
-                }
-                a((r = r.apply(e, t || [])).next())
-            })
-        },
+            function a(e) {
+                e.done ? o(e.value) : new n(function (t) {
+                    t(e.value)
+                }).then(c, u)
+            }
+            a((r = r.apply(e, t || [])).next())
+        })
+    },
         o = this && this.__generator || function (e, t) {
             var n, r, o, i, c = {
                 label: 0,
@@ -216,8 +216,8 @@
                         } catch (e) {
                             i = [6, e], r = 0
                         } finally {
-                            n = o = 0
-                        }
+                                n = o = 0
+                            }
                         if (5 & i[0]) throw i[1];
                         return {
                             value: i[0] ? i[1] : void 0,
@@ -231,7 +231,7 @@
         value: !0
     });
     var i = function () {
-        function e() {}
+        function e() { }
         return e.Get = function (e) {
             return r(this, void 0, void 0, function () {
                 return o(this, function (t) {
@@ -253,31 +253,31 @@
 }, function (e, t, n) {
     "use strict";
     var r = this && this.__awaiter || function (e, t, n, r) {
-            return new(n || (n = Promise))(function (o, i) {
-                function c(e) {
-                    try {
-                        a(r.next(e))
-                    } catch (e) {
-                        i(e)
-                    }
+        return new (n || (n = Promise))(function (o, i) {
+            function c(e) {
+                try {
+                    a(r.next(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function u(e) {
-                    try {
-                        a(r.throw(e))
-                    } catch (e) {
-                        i(e)
-                    }
+            function u(e) {
+                try {
+                    a(r.throw(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function a(e) {
-                    e.done ? o(e.value) : new n(function (t) {
-                        t(e.value)
-                    }).then(c, u)
-                }
-                a((r = r.apply(e, t || [])).next())
-            })
-        },
+            function a(e) {
+                e.done ? o(e.value) : new n(function (t) {
+                    t(e.value)
+                }).then(c, u)
+            }
+            a((r = r.apply(e, t || [])).next())
+        })
+    },
         o = this && this.__generator || function (e, t) {
             var n, r, o, i, c = {
                 label: 0,
@@ -342,8 +342,8 @@
                         } catch (e) {
                             i = [6, e], r = 0
                         } finally {
-                            n = o = 0
-                        }
+                                n = o = 0
+                            }
                         if (5 & i[0]) throw i[1];
                         return {
                             value: i[0] ? i[1] : void 0,
@@ -360,7 +360,7 @@
         c = n(2),
         u = n(4),
         a = function () {
-            function e() {}
+            function e() { }
             return e.get = function (e) {
                 return new Promise(function (t, n) {
                     chrome.tabs.get(e, function (e) {
@@ -419,7 +419,7 @@
         }();
     t.Tabs = a;
     var s = function () {
-        function e() {}
+        function e() { }
         return e.clear = function (e) {
             return new Promise(function (t, n) {
                 chrome.notifications.clear(e, function (e) {
@@ -471,31 +471,31 @@
 }, function (e, t, n) {
     "use strict";
     var r = this && this.__awaiter || function (e, t, n, r) {
-            return new(n || (n = Promise))(function (o, i) {
-                function c(e) {
-                    try {
-                        a(r.next(e))
-                    } catch (e) {
-                        i(e)
-                    }
+        return new (n || (n = Promise))(function (o, i) {
+            function c(e) {
+                try {
+                    a(r.next(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function u(e) {
-                    try {
-                        a(r.throw(e))
-                    } catch (e) {
-                        i(e)
-                    }
+            function u(e) {
+                try {
+                    a(r.throw(e))
+                } catch (e) {
+                    i(e)
                 }
+            }
 
-                function a(e) {
-                    e.done ? o(e.value) : new n(function (t) {
-                        t(e.value)
-                    }).then(c, u)
-                }
-                a((r = r.apply(e, t || [])).next())
-            })
-        },
+            function a(e) {
+                e.done ? o(e.value) : new n(function (t) {
+                    t(e.value)
+                }).then(c, u)
+            }
+            a((r = r.apply(e, t || [])).next())
+        })
+    },
         o = this && this.__generator || function (e, t) {
             var n, r, o, i, c = {
                 label: 0,
@@ -560,8 +560,8 @@
                         } catch (e) {
                             i = [6, e], r = 0
                         } finally {
-                            n = o = 0
-                        }
+                                n = o = 0
+                            }
                         if (5 & i[0]) throw i[1];
                         return {
                             value: i[0] ? i[1] : void 0,
@@ -701,9 +701,14 @@
                                 }), document.querySelector("#settings-btn").addEventListener("click", function (e) {
                                     r._logger.debug("click: settings"), document.querySelector("#settings").classList.toggle("open"), e.preventDefault()
                                 }), document.querySelector("#hotkeys-lnk").addEventListener("click", function (e) {
+
                                     r._logger.debug("click: hotkeys"), chrome.tabs.create({
-                                        url: a.Resources.urlChromeCommands
+                                        url: "chrome://extensions/shortcuts"
                                     }), e.preventDefault()
+                                    /*
+                                    document.querySelector("#hotkeys-lnk").innerHTML = a.Resources.urlChromeCommands;
+                                    e.preventDefault();
+                                    */
                                 })/*, document.querySelector("#contribute").addEventListener("click", function (e) {
                                     r._logger.debug("click: contribute"), chrome.tabs.create({
                                         url: a.Resources.urlOss
@@ -753,7 +758,7 @@
         value: !0
     });
     var r = function () {
-        function e() {}
+        function e() { }
         return e.urlOss = "https://github.com/Sergej-Popov/SpotifyControls", e.urlPayPal = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TRUHY87YGGRLY", e.urlChromeCommands = "chrome://extensions/configureCommands", e.msgDontHack = "No need to hack around.. This app is open source: " + e.urlOss, e.msgBuyBeer = '"Learned a thing or two? Buy me a beer: ' + e.urlPayPal + ' (PayPal donation)"', e.msgRate = "And don't forget to rate! https://chrome.google.com/webstore/detail/spotify-web-app-playback/goikghbjckploljhlfmjjfggccmlnbea/reviews", e
     }();
     t.Resources = r
