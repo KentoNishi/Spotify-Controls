@@ -26,17 +26,11 @@
       },
       "player-next": {
          "description": "Next Track",
-         "global": true,
-         "suggested_key": {
-            "default": "MediaNextTrack"
-         }
+         "global": true
       },
       "player-previous": {
          "description": "Previous Track",
-         "global": true,
-         "suggested_key": {
-            "default": "MediaPrevTrack"
-         }
+         "global": true
       },
       "player-repeat": {
          "description": "Toggle Repeat",
@@ -52,10 +46,7 @@
       },
       "player-toggle": {
          "description": "Play/Pause",
-         "global": true,
-         "suggested_key": {
-            "default": "MediaPlayPause"
-         }
+         "global": true
       }
    },
    "content_scripts": [
